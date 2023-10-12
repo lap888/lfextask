@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RuntimeFrameworkVersion>2.1.15</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yoyo.Core\Yoyo.Core.csproj" />
+    <ProjectReference Include="..\Yoyo.Entity\Yoyo.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

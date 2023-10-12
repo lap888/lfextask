@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="NPOI" Version="2.4.1" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.0" />
+    <PackageReference Include="TencentCloudSDK" Version="3.0.49" />
+    <PackageReference Include="TencentCloudSDK" Version="3.0.49" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Plugins\Yoyo.Plugin.Alipay\Yoyo.Plugin.Alipay.csproj" />
+    <ProjectReference Include="..\Plugins\Yoyo.Plugin.JPush\Yoyo.Plugin.JPush.csproj" />
+    <ProjectReference Include="..\Plugins\Yoyo.Plugin.JSMS\Yoyo.Plugin.JSMS.csproj" />
+    <ProjectReference Include="..\Plugins\Yoyo.Plugin.QCloud\Yoyo.Plugin.QCloud.csproj" />
+    <ProjectReference Include="..\Plugins\Yoyo.Plugin.RealVerify\Yoyo.Plugin.RealVerify.csproj" />
+    <ProjectReference Include="..\Plugins\Yoyo.Plugin.WeChatPay\Yoyo.Plugin.WeChatPay.csproj" />
+    <ProjectReference Include="..\Plugins\Yoyo.Plugin.WeChat\Yoyo.Plugin.WeChat.csproj" />
+    <ProjectReference Include="..\Yoyo.Core\Yoyo.Core.csproj" />
+    <ProjectReference Include="..\Yoyo.Entity\Yoyo.Entity.csproj" />
+    <ProjectReference Include="..\Yoyo.IPlugins\Yoyo.IPlugins.csproj" />
+    <ProjectReference Include="..\Yoyo.IServices\Yoyo.IServices.csproj" />
+    <ProjectReference Include="..\Yoyo.Jobs\Yoyo.Jobs.csproj" />
+    <ProjectReference Include="..\Yoyo.Service.Member\Yoyo.Service.Member.csproj" />
+  </ItemGroup>
+
+</Project>
